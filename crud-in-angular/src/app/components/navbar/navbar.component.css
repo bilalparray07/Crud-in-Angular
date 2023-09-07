@@ -1,0 +1,7 @@
+.navbar {
+  box-shadow: 0 0 10px 0;
+  height: 12vh;
+}
+.navbar-inside {
+  padding: 0 30px !important;
+}

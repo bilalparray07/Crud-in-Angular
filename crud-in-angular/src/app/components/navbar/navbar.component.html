@@ -1,20 +1,25 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-primary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Git Practice</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid navbar-inside">
+    <a class="navbar-brand">MinGW</a>
     <button
       class="navbar-toggler"
       type="button"
-      data-toggle="collapse"
-      data-target="#navbarID"
-      aria-controls="navbarID"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span class="navbar-toggler-icon"></span>
+      <i class="fas fa-bars"></i>
     </button>
-    <div class="collapse navbar-collapse" id="navbarID">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link active" aria-current="page" routerLink="/home"
+          >Home</a
+        >
+        <a class="nav-link" routerLink="/form">Contact</a>
+        <a class="nav-link" routerLink="/about">About</a>
+        <!-- <a class="nav-link disabled">Disabled</a> -->
       </div>
     </div>
   </div>
